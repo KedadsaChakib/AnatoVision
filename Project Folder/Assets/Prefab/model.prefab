@@ -4245,6 +4245,7 @@ GameObject:
   - component: {fileID: 5799669349064964748}
   - component: {fileID: 1350431162048107882}
   - component: {fileID: 3082222297718296216}
+  - component: {fileID: 9032171454974818219}
   m_Layer: 0
   m_Name: model
   m_TagString: Untagged
@@ -4350,7 +4351,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6243832026886535376}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4eda371e5375f454490a86f21559ee38, type: 3}
   m_Name: 
@@ -4373,7 +4374,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6243832026886535376}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c73c1ab94e28d244827af556dca1ed2, type: 3}
   m_Name: 
@@ -4396,7 +4397,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6243832026886535376}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc7c91b26689a054d88448aba6dfe424, type: 3}
   m_Name: 
@@ -4410,6 +4411,20 @@ MonoBehaviour:
   axis: {x: 0, y: -1, z: 0}
   space: 1
   sensitivity: 1
+--- !u!114 &9032171454974818219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6243832026886535376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0aa4d562f537074083d21f89702dcc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotMinValue: 0
+  rotMaxValue: 360
 --- !u!1 &6317339698395332093
 GameObject:
   m_ObjectHideFlags: 0
